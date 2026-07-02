@@ -21231,7 +21231,7 @@ https://github.com/nodeca/pako/blob/main/LICENSE
             document.getElementById('railZipBtn').disabled = !hasClusters;
         }
 
-        function initMap() {
+        function initMapLegacy() {
             if (!state.map && state.photos.length > 0) {
                 const center = [state.photos[0].lat, state.photos[0].lon];
                 state.map = L.map('mapContainer').setView(center, 13);
